@@ -20,12 +20,12 @@
     
     <a-scene embedded arjs>
         <a-assets>
-            <a-asset-item id="sunflower" src="./SunflowerGarden.glb"></a-asset-item>
+            <a-asset-item id="meong3" src="./meong3.glb"></a-asset-item>
         </a-assets>
         <a-marker preset="hiro">
             <a-entity id="rotator-parent" position="0 0 0" animation="property: rotation; from:0 0 0; to: 0 0 360; loop: true; dur: 10000; easing: linear; startEvents: start-rotation;">
             <a-gltf-model
-                src="#sunflower"
+                src="#meong3"
                 position="0 0.2 0"
                 scale="0.3 0.3 0.3"
                 rotation="-90 0 0"
@@ -47,4 +47,5 @@
       });
     </script>
 </body>
+
 </html>
